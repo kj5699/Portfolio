@@ -1,0 +1,78 @@
+$highlightPink :#e31b6d;
+.contact-wrapper {
+    
+    font-family: inherit;
+    h3{
+        color: white;
+    }
+
+    .profiles{
+        margin: 1rem 5rem;
+        display: flex;
+        flex-wrap: wrap;
+
+        
+        justify-content: center;
+
+
+        .link-btn{
+            padding:16px;
+            margin: 1rem;
+            border-radius:0.5rem;
+            background-color:rgba(114, 115, 135, 0.2);
+            border:1px solid rgb(114, 115, 135);
+            .highlighted{
+                text-align:start;
+                // margin-left: 2rem;
+                color:white;
+                a{
+                    color:white;
+                    text-decoration:none;
+                    padding-top:1px;
+                }
+            }
+
+            
+            
+        }
+        // .link-btn:hover, .link-btn::after{
+        //     background-color:white;
+        //     .highlighted:hover{
+        //         color:rgb(22, 22, 31);
+        //         a:hover{
+        //             color:rgb(22, 22, 31);
+        //         }
+        //     }
+            
+            
+        // }
+
+
+        
+        
+
+        p{
+            .highlighted{
+                text-align:start;
+                margin-left: 2rem;
+                color:$highlightPink;
+                a{
+                    color:$highlightPink;
+                }
+            }
+        }
+    }
+
+    .footer{
+        margin: 1rem auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 80vw;
+        // margin: 1rem 5rem;
+        p{
+            margin: 0 5rem;
+            color:rgb(114, 115, 135);
+        }
+    }
+}

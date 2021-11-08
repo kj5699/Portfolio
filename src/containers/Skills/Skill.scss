@@ -1,0 +1,147 @@
+$highlightPink :#e31b6d;
+.skill-wrapper {
+    
+    width: 100%;
+    
+    
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+
+
+    
+    .content{
+
+        
+        display: flex;
+        
+        justify-content:space-between;
+
+
+        z-index: 20;
+        @media screen and (max-width:599px) {
+            flex-direction: column;
+
+            .skill-bars, .skill-cards{
+                width: 100%;
+            }
+            
+        }
+       
+        .skill-cards{
+        width: 50%;
+            padding:  2rem ;
+            
+            display:flex;
+            justify-content:center;
+            flex-wrap: wrap;
+
+            .card{
+                margin: 1rem;
+                height: 200px;
+                border:none;
+                width: 200px;
+                background-color:transparent;
+                
+
+
+
+                .card-content{
+                    margin: auto;
+                    padding: 1rem;
+                    width: 100%;
+                    height: 100%;
+                    max-width: 50vw;
+                    max-height: 50vh;
+                    border-radius: 0.8rem;
+                    // border:1px solid rgb(114, 115, 135);
+                    background-color:rgba(114, 115, 135, 0.2);
+                    // background-color:#626D58;
+                    text-align: center;
+                    
+                    display: flex;
+                    flex-direction: column;
+                    align-content: center;
+
+                    
+                    p{
+                        width: 80%;
+                        margin: auto;
+                        word-wrap: wrap;
+                        color:white
+                    }
+                    
+                }
+                @media screen and (min-width:1200px) {
+                    width:220px;
+                    height: 220px;
+                    
+                }
+                @media screen and (max-width:880px) {
+                    width:140px;
+                    height: 140px;
+                    
+                }
+                @media screen and (max-width:599px) {
+                    width:150px;
+                    height: 150px;
+
+                .card-content p{
+                    font-size:0.6rem
+                    
+                }
+                    
+                }
+                @media screen and (max-width:420px) {
+                    width: 100px;
+                    height: 100px;
+                    
+                }
+
+
+            }
+
+        }
+        .skill-bars{
+            width: 50%;
+            padding:  2rem ;
+            
+        }
+
+        .progress{
+            margin:1rem 0;
+            height: 2.5rem;
+            background-color:rgb(22, 22, 31);
+            
+
+            .progress-bar{
+                background-color:rgba(114, 115, 135, 0.2);
+                // background-color:rgb(114, 115, 135)
+                
+            }
+            .progress-bar.name{
+                font-size: large;
+                // background-color:rgb(114, 115, 135)
+                
+            }
+            .progress-bar.percentage{
+                // background-color:#B4A6AB;
+                background-color:#F4FFFD;
+                background-color:#eee;
+                color:  rgb(22, 22, 31);
+  
+                
+
+            }
+        }
+        @media screen and (max-width:599px) {
+            flex-direction: column;
+
+            .skill-bars, .skill-cards{
+                width: 100%;
+            }
+            
+        }
+
+    }
+}

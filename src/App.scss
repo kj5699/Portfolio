@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  text-align: center;
+  height:100vh;
+  width:100vw;
+  overflow-y: scroll;
+  font-family: 'Raleway', sans-serif;
+  background-color:  rgb(22, 22, 31);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+
+  // section{
+  //   border-bottom: 1px solid rgb(108, 108, 161);
+  // }
+}
+
+
+.App::-webkit-scrollbar{
+  display: none;
+  width: 0;
+}
+.App{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: 0;  /* Firefox */
+  }

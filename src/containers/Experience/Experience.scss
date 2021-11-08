@@ -1,0 +1,21 @@
+.experience-wrapper {
+    width: 100vw;
+    background-color: rgba(114, 115, 135, 0.2);
+    padding: 3rem 0;
+
+    .experience-timeline-container{
+        width:100%;
+        max-width: 90vw;
+    }
+
+    @media screen and (min-width: 768px){
+        .experience-timeline-container{
+            margin:auto;
+            max-width: 70vw;
+        }
+        
+        
+    }
+
+
+}

@@ -1,0 +1,41 @@
+.modal{
+    .carousal-container{
+        padding:0 !important;
+        
+
+    }
+    .modal-dialog::-webkit-scrollbar {
+        display: none;
+    }
+    .project-title{
+        margin:20px 0;
+    }
+    .project-description{
+        text-align: justify;
+        font-size:1rem;
+        font-family: "raleway-bold";
+        padding-right: 1rem;
+        
+    }
+}
+
+
+@media screen and (min-width: 576px){
+    .modal-dialog {
+        max-width: 700px !important;
+        margin: 1.75rem auto;
+    }
+
+    .modal .carousel-inner{
+        max-height:50vh;
+        
+        .carousel-item{
+            height: 100% !important;
+            img{
+                max-height: 50vh;
+                object-fit: contain;
+                z-index: 200;
+            }
+        }
+    }
+}
